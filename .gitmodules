@@ -4,3 +4,6 @@
 [submodule "packages/continuum"]
 	path = packages/continuum
 	url = https://github.com/Continuum-Design-System/continuum.git
+[submodule "apps/docs"]
+	path = apps/docs
+	url = https://github.com/Continuum-Design-System/docs.git
