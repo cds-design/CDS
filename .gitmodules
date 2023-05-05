@@ -1,3 +1,6 @@
 [submodule "apps/landing-page"]
 	path = apps/landing-page
 	url = https://github.com/Continuum-Design-System/continuum-design-system.github.io.git
+[submodule "packages/continuum"]
+	path = packages/continuum
+	url = https://github.com/Continuum-Design-System/continuum.git
