@@ -1,0 +1,38 @@
+{
+  "name": "landing-page",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.62.4",
+    "@react-three/fiber": "^8.12.0",
+    "@studio-freight/lenis": "^1.0.6",
+    "ahooks": "^3.7.6",
+    "continuum": "workspace:*",
+    "gsap": "^3.11.5",
+    "react": "^18.2.0",
+    "react-curved-text": "^2.0.2",
+    "react-dom": "^18.2.0",
+    "react-gsap": "^3.2.1",
+    "three": "^0.150.1",
+    "three-stdlib": "^2.21.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "@types/three": "^0.149.0",
+    "@vanilla-extract/css": "^1.11.0",
+    "@vanilla-extract/vite-plugin": "^3.8.0",
+    "@vitejs/plugin-react-swc": "^3.2.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "typescript": "^4.9.5",
+    "vite": "^4.2.1",
+    "vite-plugin-webfont-dl": "^3.7.0"
+  }
+}

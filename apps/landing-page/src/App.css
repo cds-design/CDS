@@ -1,0 +1,29 @@
+#root {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vw;
+}
+
+header,
+section,
+footer {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+
+/**
+ * bg        -> -100
+ * overview  -> -10
+ * canvas    ->  0
+ * circ_nav  ->  10
+ * cursor    ->  10
+ * component ->  100
+ * masonry   ->  100
+ * button    ->  1000
+ */

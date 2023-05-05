@@ -1,0 +1,13 @@
+{
+    "plugins": [
+        "lit-a11y"
+    ],
+    "extends": [
+        "plugin:wc/recommended",
+        "plugin:lit-a11y/recommended",
+        "plugin:lit/recommended"
+    ],
+    "rules": {
+        "lit-a11y/click-events-have-key-events": "off"
+    }
+}

@@ -1,0 +1,91 @@
+<script setup lang="ts">
+import load from "continuum";
+import { onMounted } from "vue";
+
+onMounted(() => {
+  load(
+    "button",
+    "check",
+    "alert",
+    "avatar",
+    "badge",
+    "input",
+    "progress",
+    "slider",
+    "toggle"
+  );
+});
+</script>
+
+<template>
+  <div class="wrapper">
+    <h1>Continuum Design System</h1>
+    <div>
+      <h2>Alert</h2>
+      <h3>Info (default)</h3>
+      <ct-alert>Alert me</ct-alert>
+      <h3>Info (closable)</h3>
+      <ct-alert closable>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquam
+        nobis placeat error incidunt est dignissimos? Est dicta at cum iure,
+        suscipit quae deserunt ad labore, perspiciatis alias, minus dolorem!
+      </ct-alert>
+      <h3>Warning</h3>
+      <ct-alert type="warning">Alert me</ct-alert>
+      <h3>Error</h3>
+      <ct-alert type="error">Alert me</ct-alert>
+    </div>
+    <div>
+      <h2>Avatar</h2>
+      <h3>Default</h3>
+      <ct-avatar src="https://avatars.githubusercontent.com/u/168240?v=4" />
+      <h3>with Indicator</h3>
+      <ct-avatar
+        active="{true}"
+        src="https://avatars.githubusercontent.com/u/168240?v=4"
+      />
+    </div>
+    <div>
+      <h2>Badge</h2>
+      <ct-badge disabled="true">Badge</ct-badge>
+    </div>
+    <div>
+      <h2>Button</h2>
+      <ct-button disabled="true">Click me</ct-button>
+    </div>
+    <div>
+      <h2>Checkbox</h2>
+      <ct-check>Check me</ct-check>
+    </div>
+    <div>
+      <h2>Input</h2>
+      <ct-input placeholder="username" />
+    </div>
+    <div>
+      <h2>Progress</h2>
+      <ct-progress value="50" />
+    </div>
+    <div>
+      <h2>Slider</h2>
+      <ct-slider disabled="true" value="50" />
+    </div>
+    <div>
+      <h2>Toggle</h2>
+      <ct-toggle disabled="true">Toggle me</ct-toggle>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+</style>
