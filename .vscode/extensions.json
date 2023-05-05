@@ -1,3 +1,7 @@
 {
-  "recommendations": ["svelte.svelte-vscode"]
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "bierner.lit-html",
+    "esbenp.prettier-vscode"
+  ]
 }
