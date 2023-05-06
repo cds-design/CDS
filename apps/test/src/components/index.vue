@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import load from "continuum";
+import load from "ct-ds";
 import { onMounted } from "vue";
 
 onMounted(() => {

@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "continuum": "workspace:*"
+    "ct-ds": "workspace:*"
   },
   "devDependencies": {
     "vite": "^4.2.0"

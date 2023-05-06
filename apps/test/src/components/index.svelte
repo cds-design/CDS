@@ -1,5 +1,5 @@
 <script context="module">
-  import load from "continuum";
+  import load from "ct-ds";
   import { onMount } from "svelte";
 
   onMount(() => {
