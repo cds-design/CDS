@@ -189,7 +189,11 @@ function wc(from = HTMLElement, options: WCOptions = defaultOptions) {
       return observedAttributes; // ["click", "type", 'label']
     }
 
-    attributeChangedCallback(name: string, _oldValue: string, newValue: string) {
+    attributeChangedCallback(
+      name: string,
+      _oldValue: string,
+      newValue: string
+    ) {
       this.attrs[name] = newValue;
       this.render();
     }

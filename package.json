@@ -10,13 +10,13 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "global:format": "prettier --write \"**/*.{ts,tsx,md,json,js}\" '!**/*/dist*/**'",
+    "global:format": "prettier --write \"**/*.{ts,tsx,md,mdx,json,js}\" '!**/*/{dist,.next,.turbo}*/**'",
     "format": "pnpm global:format && turbo run format"
   },
   "devDependencies": {
     "eslint-config-custom": "workspace:*",
-    "prettier": "latest",
-    "turbo": "latest"
+    "prettier": "^2.8.8",
+    "turbo": "^1.9.3"
   },
   "engines": {
     "node": ">=14.0.0"
