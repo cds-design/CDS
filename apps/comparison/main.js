@@ -1,4 +1,4 @@
 import "./style.css";
-import load from "ct-ds";
+import load from "cds-design";
 
 load("button", "avatar", "toggle", "progress");
