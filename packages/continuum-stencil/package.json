@@ -24,11 +24,11 @@
     "generate": "stencil generate"
   },
   "dependencies": {
-    "@stencil/core": "^3.0.0"
+    "@stencil/core": "^3.4.0"
   },
   "devDependencies": {
     "@stencil-community/postcss": "^2.1.0",
-    "@types/node": "^16.18.11",
+    "@types/node": "^16.18.36",
     "autoprefixer": "^10.4.13",
     "stencil-inline-svg": "^1.1.0"
   },

@@ -10,16 +10,16 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "^2.1.0",
-    "@astrojs/svelte": "^2.1.0",
-    "@astrojs/vue": "^2.1.0",
+    "@astrojs/react": "^2.2.1",
+    "@astrojs/svelte": "^2.2.0",
+    "@astrojs/vue": "^2.2.1",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
-    "astro": "^2.1.2",
+    "astro": "^2.7.0",
     "cds-design": "workspace:*",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "svelte": "^3.54.0",
-    "vue": "^3.2.30"
+    "svelte": "^3.59.2",
+    "vue": "^3.3.4"
   }
 }

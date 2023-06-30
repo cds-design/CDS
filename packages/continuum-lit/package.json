@@ -15,13 +15,13 @@
     "build": "tsc && vite build"
   },
   "devDependencies": {
-    "terser": "^5.17.1",
+    "terser": "^5.18.1",
     "typescript": "^4.9.5",
     "vite": "^4.3.3",
     "vite-aliases": "^0.10.0"
   },
   "dependencies": {
-    "lit": "^2.7.3",
+    "lit": "^2.7.5",
     "morphdom": "^2.7.0"
   }
 }
