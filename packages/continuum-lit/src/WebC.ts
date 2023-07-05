@@ -192,7 +192,7 @@ function wc(from = HTMLElement, options: WCOptions = defaultOptions) {
     attributeChangedCallback(
       name: string,
       _oldValue: string,
-      newValue: string
+      newValue: string,
     ) {
       this.attrs[name] = newValue;
       this.render();

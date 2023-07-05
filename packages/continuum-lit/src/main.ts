@@ -18,7 +18,7 @@ function load(...components: ComponentName[]) {
     loadedComponents.add(component);
     customElements.define(
       `${PREFIX}-${component}`,
-      await dynamicImport(component)
+      await dynamicImport(component),
     );
   });
 }

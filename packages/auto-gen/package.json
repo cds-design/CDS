@@ -1,0 +1,24 @@
+{
+  "name": "@cds-design/auto-gen",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "generate": "dist/main.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@cds-design/md-builder": "workspace:*",
+    "cds-design": "workspace:*",
+    "css-tree": "^2.3.1"
+  }
+}
