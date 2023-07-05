@@ -178,7 +178,7 @@ class MDX extends MD {
   }
 
   addJSX(content: string) {
-    this.markdown += `{${content}}\n`;
+    this.markdown += `${content}\n`;
     return this;
   }
 }

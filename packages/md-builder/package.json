@@ -10,7 +10,7 @@
   "types": "./dist/main.d.ts",
   "exports": {
     "types": "./dist/main.d.ts",
-    "import": "./dist/md-builder.js"
+    "import": "./dist/main.js"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json"
