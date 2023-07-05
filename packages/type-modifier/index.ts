@@ -1,16 +1,29 @@
 import { readdir, readFile, writeFile } from "node:fs/promises";
-import { TAG_NAME_PREFIX } from "cds-design/dist/constants";
 
 function capitalizeFirstLetter(string: string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
-export default async function typeModifier() {
+function toRelativePath(path: string, baseFile: string) {
+    const basePath = baseFile.split("/").slice(0, -1).join("/");
+    return path.replace(basePath, ".");
+}
+
+type Config = {
+    componentsDir: string;
+    entry: string;
+    tagNamePrefix: string;
+}
+
+async function typeModifier(config: Config) {
+
+    const { componentsDir, entry, tagNamePrefix } = config;
+
     const folders = (
-        await readdir("types/src/components", { withFileTypes: true })
+        await readdir(componentsDir, { withFileTypes: true })
     ).map((dirent) => dirent.name);
 
-    let indexTS = await readFile("types/src/index.d.ts", "utf-8");
+    let indexTS = await readFile(entry, "utf-8");
     indexTS = indexTS.replace(
         "type ComponentName = string;",
         `export type ComponentName = ${folders
@@ -22,16 +35,16 @@ export default async function typeModifier() {
         .map(
             (folder) =>
                 `import type HTML${capitalizeFirstLetter(
-                    TAG_NAME_PREFIX,
-                )}${capitalizeFirstLetter(folder)} from "./components/${folder}";`,
+                    tagNamePrefix,
+                )}${capitalizeFirstLetter(folder)} from "${toRelativePath(`${componentsDir}/${folder}`, entry)}";`,
         )
         .join("\n");
 
     const HTMLnamespace = folders
         .map(
             (folder) =>
-                `"${TAG_NAME_PREFIX}-${folder}": HTML${capitalizeFirstLetter(
-                    TAG_NAME_PREFIX,
+                `"${tagNamePrefix}-${folder}": HTML${capitalizeFirstLetter(
+                    tagNamePrefix,
                 )}${capitalizeFirstLetter(folder)}`,
         )
         .join("\n        ");
@@ -39,8 +52,8 @@ export default async function typeModifier() {
     const JSXnamespace = folders
         .map(
             (folder) =>
-                `"${TAG_NAME_PREFIX}-${folder}": CDS2JSX<HTML${capitalizeFirstLetter(
-                    TAG_NAME_PREFIX,
+                `"${tagNamePrefix}-${folder}": CDS2JSX<HTML${capitalizeFirstLetter(
+                    tagNamePrefix,
                 )}${capitalizeFirstLetter(folder)}>`,
         )
         .join("\n            ");
@@ -67,5 +80,14 @@ declare global {
     }
 }`;
 
-    await writeFile("types/src/index.d.ts", indexTS);
+    await writeFile(entry, indexTS);
+
+    console.log("✅", entry, "modified");
+}
+
+
+export default function typeModifierBuilder(config: Config) {
+    return () => {
+        return typeModifier(config);
+    }
 }
