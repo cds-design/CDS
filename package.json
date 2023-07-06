@@ -1,7 +1,20 @@
 {
   "name": "cds",
   "version": "0.0.0",
+  "description": "Continuum Design System (CDS) by Verve",
+  "license": "MIT",
   "private": true,
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cds-design/CDS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cds-design/CDS/issues"
+  },
+  "homepage": "https://github.com/cds-design/CDS#readme",
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -9,16 +22,25 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint",
+    "format": "pnpm global:format && turbo run format",
     "global:format": "prettier --write \"**/*.{ts,tsx,md,mdx,json,js}\" '!**/*/{dist,.next,.turbo}*/**'",
-    "format": "pnpm global:format && turbo run format"
+    "lint": "turbo run lint"
   },
+  "maintainers": [
+    {
+      "name": "Rajaniraiyn R",
+      "email": "rajaniraiyn@gmail.com",
+      "url": "https://rajaniraiyn.github.io"
+    },
+    {
+      "name": "Tejaswini T",
+      "email": "teejaswan12@gmail.com",
+      "url": "https://teejaswan.github.io"
+    }
+  ],
+  "packageManager": "pnpm@7.27.1",
   "devDependencies": {
     "prettier": "^3.0.0",
     "turbo": "^1.10.7"
-  },
-  "engines": {
-    "node": ">=14.0.0"
-  },
-  "packageManager": "pnpm@7.27.1"
+  }
 }

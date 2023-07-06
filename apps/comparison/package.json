@@ -1,11 +1,12 @@
 {
   "name": "comparison",
-  "private": true,
   "version": "0.0.0",
+  "description": "Comparison of CDS Design System with and without CDS",
+  "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
+    "dev": "vite",
     "preview": "vite preview"
   },
   "dependencies": {

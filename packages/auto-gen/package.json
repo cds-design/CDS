@@ -1,24 +1,46 @@
 {
   "name": "@cds-design/auto-gen",
   "version": "0.0.0",
+  "description": "A package to generate parts of documentation for Continuum Design System (CDS) by Verve",
+  "license": "MIT",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cds-design/CDS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cds-design/CDS/issues"
+  },
+  "homepage": "https://github.com/cds-design/CDS#readme",
+  "bin": {
+    "generate": "dist/main.js"
+  },
   "type": "module",
   "files": [
     "dist"
   ],
-  "bin": {
-    "generate": "dist/main.js"
-  },
   "scripts": {
     "build": "tsc -p tsconfig.json"
   },
-  "devDependencies": {
-    "@types/node": "^20.4.0",
-    "typescript": "^5.1.6"
-  },
+  "maintainers": [
+    {
+      "name": "Rajaniraiyn R",
+      "email": "rajaniraiyn@gmail.com",
+      "url": "https://rajaniraiyn.github.io"
+    },
+    {
+      "name": "Tejaswini T",
+      "email": "teejaswan12@gmail.com",
+      "url": "https://teejaswan.github.io"
+    }
+  ],
   "dependencies": {
     "@cds-design/md-builder": "workspace:*",
     "cds-design": "workspace:*",
     "css-tree": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.0",
+    "typescript": "^5.1.6"
   }
 }
