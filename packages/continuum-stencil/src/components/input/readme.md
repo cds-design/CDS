@@ -2,7 +2,6 @@
 
 <!-- Auto Generated Below -->
 
-
 ## Properties
 
 | Property             | Attribute     | Description                                                                                 | Type      | Default      |
@@ -13,7 +12,6 @@
 | `type`               | `type`        | The type of the input field                                                                 | `string`  | `'text'`     |
 | `value`              | `value`       | The value of the input field                                                                | `string`  | `undefined`  |
 
+---
 
-----------------------------------------------
-
-*Built with [StencilJS](https://stenciljs.com/)*
+_Built with [StencilJS](https://stenciljs.com/)_

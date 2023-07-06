@@ -2,7 +2,6 @@
 
 <!-- Auto Generated Below -->
 
-
 ## Properties
 
 | Property           | Attribute      | Description                                                         | Type      | Default       |
@@ -11,7 +10,6 @@
 | `indicatorBg`      | `indicator-bg` | Background of the indicator supports any valid css background value | `string`  | `'limegreen'` |
 | `src` _(required)_ | `src`          | URL of the Avatar image                                             | `string`  | `undefined`   |
 
+---
 
-----------------------------------------------
-
-*Built with [StencilJS](https://stenciljs.com/)*
+_Built with [StencilJS](https://stenciljs.com/)_

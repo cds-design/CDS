@@ -2,14 +2,12 @@
 
 <!-- Auto Generated Below -->
 
-
 ## Properties
 
 | Property   | Attribute  | Description             | Type      | Default |
 | ---------- | ---------- | ----------------------- | --------- | ------- |
 | `disabled` | `disabled` | Disables the toggle     | `boolean` | `false` |
 | `toggled`  | `toggled`  | The value of the toggle | `boolean` | `false` |
-
 
 ## Methods
 
@@ -21,9 +19,6 @@ Toggles the toggle state
 
 Type: `Promise<void>`
 
+---
 
-
-
-----------------------------------------------
-
-*Built with [StencilJS](https://stenciljs.com/)*
+_Built with [StencilJS](https://stenciljs.com/)_
