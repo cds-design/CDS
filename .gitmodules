@@ -7,3 +7,6 @@
 [submodule "apps/docs"]
 	path = apps/docs
 	url = https://github.com/Continuum-Design-System/docs.git
+[submodule "archive"]
+	path = archive
+	url = https://github.com/cds-design/archive
