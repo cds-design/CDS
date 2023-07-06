@@ -1,6 +1,6 @@
 [submodule "apps/landing-page"]
 	path = apps/landing-page
-	url = https://github.com/cds-design/landing-page.git
+	url = https://github.com/cds-design/cds-design.githib.io.git
 [submodule "packages/continuum"]
 	path = packages/continuum
 	url = https://github.com/cds-design/continuum.git
