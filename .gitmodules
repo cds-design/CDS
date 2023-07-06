@@ -1,12 +1,12 @@
 [submodule "apps/landing-page"]
 	path = apps/landing-page
-	url = https://github.com/Continuum-Design-System/continuum-design-system.github.io.git
+	url = https://github.com/cds-design/landing-page.git
 [submodule "packages/continuum"]
 	path = packages/continuum
-	url = https://github.com/Continuum-Design-System/continuum.git
+	url = https://github.com/cds-design/continuum.git
 [submodule "apps/docs"]
 	path = apps/docs
-	url = https://github.com/Continuum-Design-System/docs.git
-[submodule "archive"]
-	path = archive
-	url = https://github.com/cds-design/archive
+	url = https://github.com/cds-design/docs.git
+[submodule "archives"]
+	path = archives
+	url = https://github.com/cds-design/archives.git
