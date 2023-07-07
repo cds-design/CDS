@@ -29,6 +29,12 @@ function generateMarkdown(component: Declaration) {
 
   md.addH1(component.name);
 
+  md.addText(component.description);
+
+  md.addNewLine();
+
+  md.addH2("Preview")
+
   md.addJSX(`<ComponentPreview name="${component.name.toLowerCase()}" />`);
 
   const attributes = new MDTable(
