@@ -60,16 +60,10 @@ async function typeModifier(config: Config) {
     )
     .join("\n            ");
 
-  indexTS = `import type { LitElement } from "lit";
-import type { DetailedHTMLProps, HTMLAttributes } from "react"
-                
+  indexTS = `
 ${componentTypesImports}
 
 ${indexTS}
-
-type CDS2JSX<T> = DetailedHTMLProps<ExtractProps<T> | HTMLAttributes<T>, T>
-
-type ExtractProps<T> = Pick<T, Exclude<keyof T, keyof LitElement>>
 
 declare global {
     interface HTMLElementTagNameMap {
