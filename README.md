@@ -1,73 +1,59 @@
-# CDS
+<div align="center">
 
-This is an official pnpm starter turborepo.
+<img height="100" src="https://cds-design.github.io/favicon.svg" />
 
-## What's inside?
+# Continuum Design System (CDS)
 
-This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes the following packages/apps:
+The Design System form the Future into your hands.
 
-### Apps and Packages
+[Website](https://cds-design.github.io) | [Documentation](https://cds-design.github.io/docs) | [GitHub](https://github.com/cds-design)
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
+</div>
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+## 🚀 Features
 
-### Utilities
+- **Easy to use**: CDS is designed to be used by everyone, no matter what your skill level is.
+- **Accessible**: CDS is designed to be accessible to everyone in all ways.
+- **Customizable**: CDS is designed to be customizable to your needs.
+- **Modern**: CDS is designed to be modern and up to date with the latest technologies.
+- **Powerful**: CDS is designed to be powerful and flexible to your needs.
 
-This turborepo has some additional tools already setup for you:
+## What in this Monorepo?
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+This monorepo contains all the packages that make up the Continuum Design System and `cds-design` component library.
 
-### Build
+## 📦 Packages and Apps
 
-To build all apps and packages, run the following command:
+### 👐 Public Packages
+| Package | Description |
+| --- | --- |
+| [`cds-design`](https://github.com/cds-design/continuum) | The Continuum Design System component library. |
 
-```
-cd my-turborepo
-pnpm run build
-```
+### 🫣 Internal Packages
+| Package | Description |
+| --- | --- |
+| [`@cds-design/auto-gen`](packages/auto-gen) | A package to generate parts of CDS documentation |
+| [`@cds-design/md-builder`](packages/md-builder) | A package to make markdown files as templates from within TypeScript/JavaScript |
+| [`@cds-design/type-modifier`](packages/type-modifier) | A package to modify the typescript type definitions |
+| [`@cds-design/vite-plugin-lit-postcss`](packages/vite-plugin-lit-postcss) | A Vite plugin for postCSS pre-processing for the CSS used within lit components |
 
-### Develop
+### 📱 Apps
 
-To develop all apps and packages, run the following command:
+| App | Description |
+| --- | --- |
+| [`docs`](https://github.com/cds-design/docs) | Documentation website |
+| [`landing-page`](https://github.com/cds-design/cds-design.github.io) | Landing page |
+| [`comparison`](apps/comparision) | Comparison Demo |
+| [`test`](apps/test) | Test app to test `cds-design` with various frameworks |
 
-```
-cd my-turborepo
-pnpm run dev
-```
+## 🗑️ Archived Packages
 
-### Remote Caching
+These packages are no longer maintained and have been archived. All of these packages have been moved to the [`archives`](https://github.com/cds-design/archives) repo.
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+<div align="center">
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+---
 
-```
-cd my-turborepo
-pnpm dlx turbo login
-```
+[`Made with ❤️ by Verve`](https://github.com/ve-r-ve)
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your turborepo:
-
-```
-pnpm dlx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+</div>
