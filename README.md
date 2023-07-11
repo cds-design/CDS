@@ -43,7 +43,7 @@ This monorepo contains all the packages that make up the Continuum Design System
 | --- | --- |
 | [`docs`](https://github.com/cds-design/docs) | Documentation website |
 | [`landing-page`](https://github.com/cds-design/cds-design.github.io) | Landing page |
-| [`comparison`](apps/comparision) | Comparison Demo |
+| [`comparison`](apps/comparison) | Comparison Demo |
 | [`test`](apps/test) | Test app to test `cds-design` with various frameworks |
 
 ## 🗑️ Archived Packages
