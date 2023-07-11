@@ -40,10 +40,10 @@
   "dependencies": {
     "postcss": "^8.4.25",
     "postcss-load-config": "^4.0.1",
-    "vite": "^4.4.0"
+    "vite": "^4.4.3"
   },
   "devDependencies": {
-    "@types/node": "^20.4.0",
+    "@types/node": "^20.4.1",
     "typescript": "^5.1.3"
   }
 }
