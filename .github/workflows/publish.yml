@@ -34,9 +34,10 @@ jobs:
         run: |
           for package in $(ls packages); do
             cd packages/$package
+            pnpm version patch --no-git-tag
             echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> .npmrc
             echo "@cds-design:registry=https://npm.pkg.github.com" >> .npmrc
-            npm publish
+            pnpm publish --registry=https://npm.pkg.github.com
             cd ../..
           done
         env:
