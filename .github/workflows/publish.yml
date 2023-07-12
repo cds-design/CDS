@@ -39,9 +39,13 @@ jobs:
       - name: Publish packages
         run: |
           for package in $(ls packages); do
-            cd packages/$package
-            pnpm publish --no-git-checks
-            cd ../..
+            if [ "$package" != "continuum" ]; then
+              cd packages/$package
+              pnpm version patch
+              git push --follow-tags
+              pnpm publish --no-git-checks
+              cd ../..
+            fi
           done
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
