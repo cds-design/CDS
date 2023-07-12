@@ -4,9 +4,13 @@ importers:
 
   .:
     specifiers:
+      czg: ^1.7.0
+      husky: ^8.0.3
       prettier: ^3.0.0
       turbo: ^1.10.7
     devDependencies:
+      czg: 1.7.0
+      husky: 8.0.3
       prettier: 3.0.0
       turbo: 1.10.7
 
@@ -3810,6 +3814,12 @@ packages:
       lodash: 4.17.21
     dev: false
 
+  /czg/1.7.0:
+    resolution: {integrity: sha512-Y0pC2Ff2PoVRWGHCdZI13Gag8RdhMA9t9Invyjr/efyGbgust8TSQEVvMM4MidAuB7zm8PvGytljk6Segjr4DA==}
+    engines: {node: '>=v12.20.0'}
+    hasBin: true
+    dev: true
+
   /d/1.0.1:
     resolution: {integrity: sha512-m62ShEObQ39CfralilEQRjH6oAMtNCV1xJyEx5LpRYUVN+EviphDgUc/F3hnYbADmkiNs67Y+3ylmlG7Lnu+FA==}
     dependencies:
@@ -5220,6 +5230,12 @@ packages:
     resolution: {integrity: sha512-nZXjEF2nbo7lIw3mgYjItAfgQXog3OjJogSbKa2CQIIvSGWcKgeJnQlNXip6NglNzYH45nSRiEVimMvYL8DDqQ==}
     engines: {node: '>=14.18.0'}
     dev: false
+
+  /husky/8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
 
   /iconv-lite/0.6.3:
     resolution: {integrity: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==}

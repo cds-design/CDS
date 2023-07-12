@@ -21,10 +21,12 @@
   ],
   "scripts": {
     "build": "turbo run build",
+    "commit": "czg",
     "dev": "turbo run dev",
     "format": "pnpm global:format && turbo run format",
     "global:format": "prettier --write \"**/*.{ts,tsx,md,mdx,json,js}\" '!**/*/{dist,.next,.turbo}*/**'",
-    "lint": "turbo run lint"
+    "lint": "turbo run lint",
+    "prepare": "husky install"
   },
   "maintainers": [
     {
@@ -40,6 +42,8 @@
   ],
   "packageManager": "pnpm@7.27.1",
   "devDependencies": {
+    "czg": "^1.7.0",
+    "husky": "^8.0.3",
     "prettier": "^3.0.0",
     "turbo": "^1.10.7"
   }
