@@ -31,7 +31,7 @@ jobs:
           run_install: false
 
       - name: Install dependencies
-        run: pnpm install --force
+        run: pnpm install --filter='./packages/*' --frozen-lockfile --prefer-frozen-lockfile
 
       - name: Build packages
         run: pnpm build --filter='./packages/*'
