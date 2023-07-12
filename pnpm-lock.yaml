@@ -21,7 +21,7 @@ importers:
 
   apps/docs:
     specifiers:
-      '@cds-design/auto-gen': workspace:*
+      '@cds-design/auto-gen': '*'
       '@types/react': ^18.2.14
       ahooks: ^3.7.8
       cds-design: '*'
