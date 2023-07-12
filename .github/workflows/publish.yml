@@ -42,6 +42,8 @@ jobs:
             if [ "$package" != "continuum" ]; then
               cd packages/$package
               pnpm version patch
+              git add .
+              git commit -m "chore: release $package"
               git push --follow-tags
               pnpm publish --no-git-checks
               cd ../..
