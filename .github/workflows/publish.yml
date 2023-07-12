@@ -39,7 +39,7 @@ jobs:
       - name: Publish packages
         run: |
           for package in $(ls packages); do
-            if [ "$package" != "continuum" ]; then
+            if [ "$package" != "continuum" ] && [ "$package" != "tsconfig" ]; then
               cd packages/$package
               pnpm publish --no-git-checks
               cd ../..
