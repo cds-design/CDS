@@ -21,7 +21,7 @@
   ],
   "scripts": {
     "build": "turbo run build",
-    "commit": "czg",
+    "commit": "czg --config=\"./cz.js\"",
     "dev": "turbo run dev",
     "format": "pnpm global:format && turbo run format",
     "global:format": "prettier --write \"**/*.{ts,tsx,md,mdx,json,js}\" '!**/*/{dist,.next,.turbo}*/**'",
