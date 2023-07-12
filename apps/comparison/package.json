@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "cds-design": "workspace:*"
+    "cds-design": "*"
   },
   "devDependencies": {
     "vite": "^4.4.3"

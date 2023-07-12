@@ -39,7 +39,7 @@
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "astro": "^2.8.1",
-    "cds-design": "workspace:*",
+    "cds-design": "*",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "svelte": "^4.0.5",
