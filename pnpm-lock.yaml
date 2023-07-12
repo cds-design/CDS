@@ -175,8 +175,8 @@ importers:
 
   packages/continuum:
     specifiers:
-      '@cds-design/type-modifier': workspace:*
-      '@cds-design/vite-plugin-lit-postcss': workspace:*
+      '@cds-design/type-modifier': '*'
+      '@cds-design/vite-plugin-lit-postcss': '*'
       '@types/react': ^18.2.6
       autoprefixer: ^10.4.14
       eslint: ^8.44.0
