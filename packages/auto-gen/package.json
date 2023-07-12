@@ -35,8 +35,8 @@
     }
   ],
   "dependencies": {
-    "@cds-design/md-builder": "workspace:*",
-    "cds-design": "workspace:*",
+    "@cds-design/md-builder": "*",
+    "cds-design": "*",
     "css-tree": "^2.3.1"
   },
   "devDependencies": {
