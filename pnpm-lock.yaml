@@ -12,7 +12,7 @@ importers:
 
   apps/comparison:
     specifiers:
-      cds-design: workspace:*
+      cds-design: '*'
       vite: ^4.4.3
     dependencies:
       cds-design: link:../../packages/continuum
@@ -140,7 +140,7 @@ importers:
       '@types/react': ^18.0.21
       '@types/react-dom': ^18.0.6
       astro: ^2.8.1
-      cds-design: workspace:*
+      cds-design: '*'
       react: ^18.0.0
       react-dom: ^18.0.0
       svelte: ^4.0.5
@@ -160,9 +160,9 @@ importers:
 
   packages/auto-gen:
     specifiers:
-      '@cds-design/md-builder': workspace:*
+      '@cds-design/md-builder': '*'
       '@types/node': ^20.4.1
-      cds-design: workspace:*
+      cds-design: '*'
       css-tree: ^2.3.1
       typescript: ^5.1.6
     dependencies:
