@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "A package to make markdown files as templates from within TypeScript/JavaScript; used for Continuum Design System (CDS) by Verve",
   "license": "MIT",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cds-design/CDS.git"

@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "description": "A package to generate parts of documentation for Continuum Design System (CDS) by Verve",
   "license": "MIT",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cds-design/CDS.git"

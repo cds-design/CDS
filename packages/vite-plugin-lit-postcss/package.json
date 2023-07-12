@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "description": "A Vite plugin for postCSS pre-processing for the CSS used within lit components for Continuum Design System (CDS) by Verve",
   "license": "MIT",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cds-design/CDS.git"
