@@ -29,7 +29,7 @@ importers:
       '@astrojs/svelte': ^3.1.0
       '@astrojs/vue': ^2.2.1
       '@types/react': ^18.0.21
-      '@types/react-dom': ^18.0.6
+      '@types/react-dom': ^18.2.7
       astro: ^2.8.3
       cds-design: '*'
       react: ^18.0.0
@@ -37,11 +37,11 @@ importers:
       svelte: ^4.0.5
       vue: ^3.3.4
     dependencies:
-      '@astrojs/react': 2.2.1_hrrtw4it2dqo6rzcqzvl36ff7i
+      '@astrojs/react': 2.2.1_uxzdvyigevn6hawdlr7isnvh64
       '@astrojs/svelte': 3.1.0_astro@2.8.3+svelte@4.0.5
       '@astrojs/vue': 2.2.1_astro@2.8.3+vue@3.3.4
       '@types/react': 18.2.14
-      '@types/react-dom': 18.2.6
+      '@types/react-dom': 18.2.7
       astro: 2.8.3
       cds-design: 0.2.2
       react: 18.2.0
@@ -171,7 +171,7 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/react/2.2.1_hrrtw4it2dqo6rzcqzvl36ff7i:
+  /@astrojs/react/2.2.1_uxzdvyigevn6hawdlr7isnvh64:
     resolution: {integrity: sha512-nq5Zr8iWdwjSp5fh1NReaCplwsnL4w5PXAY5XWu1jE/frxEfF/ycGHrrhwWW0uJHX9G+kUtmQLR0GBhlR4FmAw==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
@@ -183,7 +183,7 @@ packages:
       '@babel/core': 7.22.8
       '@babel/plugin-transform-react-jsx': 7.22.5_@babel+core@7.22.8
       '@types/react': 18.2.14
-      '@types/react-dom': 18.2.6
+      '@types/react-dom': 18.2.7
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     transitivePeerDependencies:
@@ -1153,8 +1153,8 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: false
 
-  /@types/react-dom/18.2.6:
-    resolution: {integrity: sha512-2et4PDvg6PVCyS7fuTc4gPoksV58bW0RwSxWKcPRcHZf0PRUGq03TKcD/rUHe3azfV6/5/biUBJw+HhCQjaP0A==}
+  /@types/react-dom/18.2.7:
+    resolution: {integrity: sha512-GRaAEriuT4zp9N4p1i8BDBYmEyfo+xQ3yHjJU4eiK5NDa1RmUZG+unZABUTK4/Ox/M+GaHwb6Ow8rUITrtjszA==}
     dependencies:
       '@types/react': 18.2.14
     dev: false
