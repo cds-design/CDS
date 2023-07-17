@@ -79,13 +79,13 @@ importers:
   packages/type-modifier:
     specifiers:
       '@types/node': ^20.4.2
-      postcss: ^8.4.25
+      postcss: ^8.4.26
       postcss-load-config: ^4.0.1
       typescript: ^5.1.3
       vite: ^4.4.3
     dependencies:
-      postcss: 8.4.25
-      postcss-load-config: 4.0.1_postcss@8.4.25
+      postcss: 8.4.26
+      postcss-load-config: 4.0.1_postcss@8.4.26
       vite: 4.4.3_@types+node@20.4.2
     devDependencies:
       '@types/node': 20.4.2
@@ -93,13 +93,13 @@ importers:
 
   packages/vite-plugin-lit-postcss:
     specifiers:
-      postcss: ^8.4.25
+      postcss: ^8.4.26
       postcss-load-config: ^4.0.1
       typescript: ^5.1.3
       vite: ^4.4.3
     dependencies:
-      postcss: 8.4.25
-      postcss-load-config: 4.0.1_postcss@8.4.25
+      postcss: 8.4.26
+      postcss-load-config: 4.0.1_postcss@8.4.26
       vite: 4.4.3
     devDependencies:
       typescript: 5.1.6
@@ -1291,7 +1291,7 @@ packages:
       '@vue/shared': 3.3.4
       estree-walker: 2.0.2
       magic-string: 0.30.1
-      postcss: 8.4.25
+      postcss: 8.4.26
       source-map-js: 1.0.2
     dev: false
 
@@ -3151,7 +3151,7 @@ packages:
       find-up: 4.1.0
     dev: false
 
-  /postcss-load-config/4.0.1_postcss@8.4.25:
+  /postcss-load-config/4.0.1_postcss@8.4.26:
     resolution: {integrity: sha512-vEJIc8RdiBRu3oRAI0ymerOn+7rPuMvRXslTvZUKZonDHFIczxztIyJ1urxM1x9JXEikvpWWTUUqal5j/8QgvA==}
     engines: {node: '>= 14'}
     peerDependencies:
@@ -3164,7 +3164,7 @@ packages:
         optional: true
     dependencies:
       lilconfig: 2.1.0
-      postcss: 8.4.25
+      postcss: 8.4.26
       yaml: 2.2.2
     dev: false
 
@@ -3175,6 +3175,15 @@ packages:
       nanoid: 3.3.6
       picocolors: 1.0.0
       source-map-js: 1.0.2
+
+  /postcss/8.4.26:
+    resolution: {integrity: sha512-jrXHFF8iTloAenySjM/ob3gSj7pCu0Ji49hnjqzsgSRa50hkWCKD0HQ+gMNJkW38jBI68MpAAg7ZWwHwX8NMMw==}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.6
+      picocolors: 1.0.0
+      source-map-js: 1.0.2
+    dev: false
 
   /preferred-pm/3.0.3:
     resolution: {integrity: sha512-+wZgbxNES/KlJs9q40F/1sfOd/j7f1O9JaHcW5Dsn3aUUOZg3L2bjpVUcKV2jvtElYfoTuQiNeMfQJ4kwUAhCQ==}
