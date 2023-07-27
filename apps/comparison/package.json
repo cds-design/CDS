@@ -13,6 +13,6 @@
     "cds-design": "*"
   },
   "devDependencies": {
-    "vite": "^4.4.3"
+    "vite": "^4.4.7"
   }
 }
