@@ -28,7 +28,7 @@ importers:
       '@astrojs/react': ^2.2.1
       '@astrojs/svelte': ^3.1.0
       '@astrojs/vue': ^2.2.1
-      '@types/react': ^18.2.15
+      '@types/react': ^18.2.17
       '@types/react-dom': ^18.2.7
       astro: ^2.9.2
       cds-design: '*'
@@ -37,10 +37,10 @@ importers:
       svelte: ^4.1.1
       vue: ^3.3.4
     dependencies:
-      '@astrojs/react': 2.2.1_uas4yajzsllemiyrexr66mus4q
+      '@astrojs/react': 2.2.1_daadhm4ohxobgnrt365as5bhny
       '@astrojs/svelte': 3.1.0_astro@2.9.2+svelte@4.1.1
       '@astrojs/vue': 2.2.1_astro@2.9.2+vue@3.3.4
-      '@types/react': 18.2.15
+      '@types/react': 18.2.17
       '@types/react-dom': 18.2.7
       astro: 2.9.2
       cds-design: 0.2.2
@@ -171,7 +171,7 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/react/2.2.1_uas4yajzsllemiyrexr66mus4q:
+  /@astrojs/react/2.2.1_daadhm4ohxobgnrt365as5bhny:
     resolution: {integrity: sha512-nq5Zr8iWdwjSp5fh1NReaCplwsnL4w5PXAY5XWu1jE/frxEfF/ycGHrrhwWW0uJHX9G+kUtmQLR0GBhlR4FmAw==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
@@ -182,7 +182,7 @@ packages:
     dependencies:
       '@babel/core': 7.22.8
       '@babel/plugin-transform-react-jsx': 7.22.5_@babel+core@7.22.8
-      '@types/react': 18.2.15
+      '@types/react': 18.2.17
       '@types/react-dom': 18.2.7
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -1160,11 +1160,11 @@ packages:
   /@types/react-dom/18.2.7:
     resolution: {integrity: sha512-GRaAEriuT4zp9N4p1i8BDBYmEyfo+xQ3yHjJU4eiK5NDa1RmUZG+unZABUTK4/Ox/M+GaHwb6Ow8rUITrtjszA==}
     dependencies:
-      '@types/react': 18.2.15
+      '@types/react': 18.2.17
     dev: false
 
-  /@types/react/18.2.15:
-    resolution: {integrity: sha512-oEjE7TQt1fFTFSbf8kkNuc798ahTUzn3Le67/PWjE8MAfYAD/qB7O8hSTcromLFqHCt9bcdOg5GXMokzTjJ5SA==}
+  /@types/react/18.2.17:
+    resolution: {integrity: sha512-u+e7OlgPPh+aryjOm5UJMX32OvB2E3QASOAqVMY6Ahs90djagxwv2ya0IctglNbNTexC12qCSMZG47KPfy1hAA==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
