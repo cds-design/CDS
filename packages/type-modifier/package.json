@@ -37,7 +37,7 @@
   ],
   "types": "./dist/index.d.ts",
   "dependencies": {
-    "postcss": "^8.4.26",
+    "postcss": "^8.4.27",
     "postcss-load-config": "^4.0.1",
     "vite": "^4.4.7"
   },
