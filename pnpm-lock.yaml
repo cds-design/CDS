@@ -6,12 +6,12 @@ importers:
     specifiers:
       czg: ^1.7.0
       husky: ^8.0.3
-      prettier: ^3.0.0
+      prettier: ^3.0.1
       turbo: ^1.10.12
     devDependencies:
       czg: 1.7.0
       husky: 8.0.3
-      prettier: 3.0.0
+      prettier: 3.0.1
       turbo: 1.10.12
 
   apps/comparison:
@@ -3216,8 +3216,8 @@ packages:
     hasBin: true
     dev: false
 
-  /prettier/3.0.0:
-    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+  /prettier/3.0.1:
+    resolution: {integrity: sha512-fcOWSnnpCrovBsmFZIGIy9UqK2FaI7Hqax+DIO0A9UxeVoY4iweyaFjS5TavZN97Hfehph0nhsZnjlVKzEQSrQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
