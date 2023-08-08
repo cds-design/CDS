@@ -39,7 +39,7 @@
   "dependencies": {
     "postcss": "^8.4.27",
     "postcss-load-config": "^4.0.1",
-    "vite": "^4.4.7"
+    "vite": "^4.4.9"
   },
   "devDependencies": {
     "@types/node": "^20.4.5",
