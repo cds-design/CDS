@@ -74,6 +74,11 @@ declare global {
             ${JSXnamespace}
         }
     }
+    namespace svelteHTML {
+         interface IntrinsicElements {
+        ${HTMLnamespace}
+         }
+    }
 }`;
 
   await writeFile(entry, indexTS);
