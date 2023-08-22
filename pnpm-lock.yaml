@@ -30,7 +30,7 @@ importers:
       '@astrojs/vue': ^2.2.1
       '@types/react': ^18.2.20
       '@types/react-dom': ^18.2.7
-      astro: ^2.10.7
+      astro: ^2.10.12
       cds-design: '*'
       react: ^18.0.0
       react-dom: ^18.0.0
@@ -38,11 +38,11 @@ importers:
       vue: ^3.3.4
     dependencies:
       '@astrojs/react': 2.2.1_gltvt74xzh7f5lvw2hzxriz5bu
-      '@astrojs/svelte': 3.1.0_astro@2.10.7+svelte@4.2.0
-      '@astrojs/vue': 2.2.1_astro@2.10.7+vue@3.3.4
+      '@astrojs/svelte': 3.1.0_astro@2.10.12+svelte@4.2.0
+      '@astrojs/vue': 2.2.1_astro@2.10.12+vue@3.3.4
       '@types/react': 18.2.20
       '@types/react-dom': 18.2.7
-      astro: 2.10.7
+      astro: 2.10.12
       cds-design: 0.4.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -141,13 +141,13 @@ packages:
       vscode-uri: 3.0.7
     dev: false
 
-  /@astrojs/markdown-remark/2.2.1_astro@2.10.7:
+  /@astrojs/markdown-remark/2.2.1_astro@2.10.12:
     resolution: {integrity: sha512-VF0HRv4GpC1XEMLnsKf6jth7JSmlt9qpqP0josQgA2eSpCIAC/Et+y94mgdBIZVBYH/yFnMoIxgKVe93xfO2GA==}
     peerDependencies:
       astro: ^2.5.0
     dependencies:
       '@astrojs/prism': 2.1.2
-      astro: 2.10.7
+      astro: 2.10.12
       github-slugger: 1.5.0
       import-meta-resolve: 2.2.2
       rehype-raw: 6.1.1
@@ -190,7 +190,7 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/svelte/3.1.0_astro@2.10.7+svelte@4.2.0:
+  /@astrojs/svelte/3.1.0_astro@2.10.12+svelte@4.2.0:
     resolution: {integrity: sha512-yk2cp+P7O1SlzfEGMPHFBNSY5XMHwqsfQelTUxMzYYOrUIYSXoSok1k8a/3/k//eE/9hCoXvcPG4xHKLTLzwhA==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
@@ -198,7 +198,7 @@ packages:
       svelte: ^3.55.0 || ^4.0.0
     dependencies:
       '@sveltejs/vite-plugin-svelte': 2.4.2_svelte@4.2.0
-      astro: 2.10.7
+      astro: 2.10.12
       svelte: 4.2.0
       svelte2tsx: 0.6.16_svelte@4.2.0
     transitivePeerDependencies:
@@ -223,7 +223,7 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/vue/2.2.1_astro@2.10.7+vue@3.3.4:
+  /@astrojs/vue/2.2.1_astro@2.10.12+vue@3.3.4:
     resolution: {integrity: sha512-fq+RKFAKpIRcobF/803kMJWv/lobf9IIk6K5As5fWE/eYTpykkgHtxd+zDnf7d4I2V7K9XLKV06Oi6Q+oTJmDw==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
@@ -234,7 +234,7 @@ packages:
       '@vitejs/plugin-vue-jsx': 3.0.0_vue@3.3.4
       '@vue/babel-plugin-jsx': 1.1.1
       '@vue/compiler-sfc': 3.3.4
-      astro: 2.10.7
+      astro: 2.10.12
       vue: 3.3.4
     transitivePeerDependencies:
       - '@babel/core'
@@ -1411,8 +1411,8 @@ packages:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
     dev: false
 
-  /astro/2.10.7:
-    resolution: {integrity: sha512-R8aF4yphrsbhxW2UxHZ1DslBn8e8vPQ23+Z/OnajNE1Q4HEZCOZ4CAbHJx2PDwq2p+CRWArNalpr3+rTqyOYBQ==}
+  /astro/2.10.12:
+    resolution: {integrity: sha512-JbD+hLCbXhpDofuzWQxojmjXwoqD0bR2BGqIByZ7B5Cj6dKQXHIr1HsrDdWcmjM+O4NXKV2TCfeXv1ZTtjqX3Q==}
     engines: {node: '>=16.12.0', npm: '>=6.14.0'}
     hasBin: true
     peerDependencies:
@@ -1424,7 +1424,7 @@ packages:
       '@astrojs/compiler': 1.8.1
       '@astrojs/internal-helpers': 0.1.2
       '@astrojs/language-server': 1.0.8
-      '@astrojs/markdown-remark': 2.2.1_astro@2.10.7
+      '@astrojs/markdown-remark': 2.2.1_astro@2.10.12
       '@astrojs/telemetry': 2.1.1
       '@astrojs/webapi': 2.2.0
       '@babel/core': 7.22.10
@@ -1443,7 +1443,6 @@ packages:
       common-ancestor-path: 1.0.1
       cookie: 0.5.0
       debug: 4.3.4
-      deepmerge-ts: 4.3.0
       devalue: 4.3.2
       diff: 5.1.0
       es-module-lexer: 1.3.0
@@ -1454,6 +1453,7 @@ packages:
       github-slugger: 2.0.0
       gray-matter: 4.0.3
       html-escaper: 3.0.3
+      http-cache-semantics: 4.1.1
       js-yaml: 4.1.0
       kleur: 4.1.5
       magic-string: 0.30.2
@@ -1772,11 +1772,6 @@ packages:
 
   /dedent-js/1.0.1:
     resolution: {integrity: sha512-OUepMozQULMLUmhxS95Vudo0jb0UchLimi3+pQ2plj61Fcy8axbP9hbiD4Sz6DPqn6XG3kfmziVfQ1rSys5AJQ==}
-    dev: false
-
-  /deepmerge-ts/4.3.0:
-    resolution: {integrity: sha512-if3ZYdkD2dClhnXR5reKtG98cwyaRT1NeugQoAPTTfsOpV9kqyeiBF9Qa5RHjemb3KzD5ulqygv6ED3t5j9eJw==}
-    engines: {node: '>=12.4.0'}
     dev: false
 
   /deepmerge/4.3.1:
@@ -2223,6 +2218,10 @@ packages:
 
   /html-void-elements/2.0.1:
     resolution: {integrity: sha512-0quDb7s97CfemeJAnW9wC0hw78MtW7NU3hqtCD75g2vFlDLt36llsYD7uB7SUzojLMP24N5IatXf7ylGXiGG9A==}
+    dev: false
+
+  /http-cache-semantics/4.1.1:
+    resolution: {integrity: sha512-er295DKPVsV82j5kw1Gjt+ADA/XYHsajl82cGNQG2eyoPkvgUhX+nDIyelzhIWbbsXP39EHcI6l5tYs2FYqYXQ==}
     dev: false
 
   /human-signals/2.1.0:
