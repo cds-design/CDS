@@ -52,7 +52,7 @@ importers:
   packages/auto-gen:
     specifiers:
       '@cds-design/md-builder': '*'
-      '@types/node': ^20.5.1
+      '@types/node': ^20.5.7
       cds-design: '*'
       css-tree: ^2.3.1
       typescript: ^5.1.6
@@ -61,7 +61,7 @@ importers:
       cds-design: 0.4.0
       css-tree: 2.3.1
     devDependencies:
-      '@types/node': 20.5.1
+      '@types/node': 20.5.7
       typescript: 5.1.6
 
   packages/md-builder:
@@ -78,7 +78,7 @@ importers:
 
   packages/type-modifier:
     specifiers:
-      '@types/node': ^20.5.1
+      '@types/node': ^20.5.7
       postcss: ^8.4.28
       postcss-load-config: ^4.0.1
       typescript: ^5.1.6
@@ -86,9 +86,9 @@ importers:
     dependencies:
       postcss: 8.4.28
       postcss-load-config: 4.0.1_postcss@8.4.28
-      vite: 4.4.9_@types+node@20.5.1
+      vite: 4.4.9_@types+node@20.5.7
     devDependencies:
-      '@types/node': 20.5.1
+      '@types/node': 20.5.7
       typescript: 5.1.6
 
   packages/vite-plugin-lit-postcss:
@@ -1134,8 +1134,8 @@ packages:
       '@types/unist': 2.0.7
     dev: false
 
-  /@types/node/20.5.1:
-    resolution: {integrity: sha512-4tT2UrL5LBqDwoed9wZ6N3umC4Yhz3W3FloMmiiG4JwmUJWpie0c7lcnUNd4gtMKuDEO4wRVS8B6Xa0uMRsMKg==}
+  /@types/node/20.5.7:
+    resolution: {integrity: sha512-dP7f3LdZIysZnmvP3ANJYTSwg+wLLl8p7RqniVlV7j+oXSXAbt9h0WIBFmJy5inWZoX9wZN6eXx+YXd9Rh3RBA==}
 
   /@types/parse5/6.0.3:
     resolution: {integrity: sha512-SuT16Q1K51EAVPz1K29DJ/sXjhSQ0zjvsypYJ6tlwVsRV9jwW5Adq2ch8Dq8kDBCkYnELS7N7VNCSB5nC56t/g==}
@@ -3947,7 +3947,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /vite/4.4.9_@types+node@20.5.1:
+  /vite/4.4.9_@types+node@20.5.7:
     resolution: {integrity: sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3975,7 +3975,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.5.1
+      '@types/node': 20.5.7
       esbuild: 0.18.11
       postcss: 8.4.27
       rollup: 3.27.2
