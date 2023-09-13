@@ -7,6 +7,6 @@
     "svelte.json"
   ],
   "devDependencies": {
-    "@tsconfig/svelte": "^5.0.0"
+    "@tsconfig/svelte": "^5.0.2"
   }
 }
