@@ -79,13 +79,13 @@ importers:
   packages/type-modifier:
     specifiers:
       '@types/node': ^20.6.2
-      postcss: ^8.4.28
+      postcss: ^8.4.30
       postcss-load-config: ^4.0.1
       typescript: ^5.2.2
       vite: ^4.4.9
     dependencies:
-      postcss: 8.4.28
-      postcss-load-config: 4.0.1_postcss@8.4.28
+      postcss: 8.4.30
+      postcss-load-config: 4.0.1_postcss@8.4.30
       vite: 4.4.9_@types+node@20.6.2
     devDependencies:
       '@types/node': 20.6.2
@@ -93,13 +93,13 @@ importers:
 
   packages/vite-plugin-lit-postcss:
     specifiers:
-      postcss: ^8.4.28
+      postcss: ^8.4.30
       postcss-load-config: ^4.0.1
       typescript: ^5.2.2
       vite: ^4.4.9
     dependencies:
-      postcss: 8.4.28
-      postcss-load-config: 4.0.1_postcss@8.4.28
+      postcss: 8.4.30
+      postcss-load-config: 4.0.1_postcss@8.4.30
       vite: 4.4.9
     devDependencies:
       typescript: 5.2.2
@@ -1251,7 +1251,7 @@ packages:
       '@vue/shared': 3.3.4
       estree-walker: 2.0.2
       magic-string: 0.30.3
-      postcss: 8.4.28
+      postcss: 8.4.30
       source-map-js: 1.0.2
     dev: false
 
@@ -3150,7 +3150,7 @@ packages:
       find-up: 4.1.0
     dev: false
 
-  /postcss-load-config/4.0.1_postcss@8.4.28:
+  /postcss-load-config/4.0.1_postcss@8.4.30:
     resolution: {integrity: sha512-vEJIc8RdiBRu3oRAI0ymerOn+7rPuMvRXslTvZUKZonDHFIczxztIyJ1urxM1x9JXEikvpWWTUUqal5j/8QgvA==}
     engines: {node: '>= 14'}
     peerDependencies:
@@ -3163,7 +3163,7 @@ packages:
         optional: true
     dependencies:
       lilconfig: 2.1.0
-      postcss: 8.4.28
+      postcss: 8.4.30
       yaml: 2.2.2
     dev: false
 
@@ -3174,6 +3174,15 @@ packages:
       nanoid: 3.3.6
       picocolors: 1.0.0
       source-map-js: 1.0.2
+
+  /postcss/8.4.30:
+    resolution: {integrity: sha512-7ZEao1g4kd68l97aWG/etQKPKq07us0ieSZ2TnFDk11i0ZfDW2AwKHYU8qv4MZKqN2fdBfg+7q0ES06UA73C1g==}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.6
+      picocolors: 1.0.0
+      source-map-js: 1.0.2
+    dev: false
 
   /prebuild-install/7.1.1:
     resolution: {integrity: sha512-jAXscXWMcCK8GgCoHOfIr0ODh5ai8mj63L2nWrjuAgXE6tDyYGnx4/8o/rCgU+B4JSyZBKbeZqzhtwtC3ovxjw==}
