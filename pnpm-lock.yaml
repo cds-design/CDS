@@ -30,7 +30,7 @@ importers:
       '@astrojs/vue': ^3.0.0
       '@types/react': ^18.2.24
       '@types/react-dom': ^18.2.7
-      astro: ^3.2.1
+      astro: ^3.2.3
       cds-design: '*'
       react: ^18.0.0
       react-dom: ^18.0.0
@@ -38,11 +38,11 @@ importers:
       vue: ^3.3.4
     dependencies:
       '@astrojs/react': 3.0.2_n7zlhqtz6oyufirdpf4fplpcfq
-      '@astrojs/svelte': 4.0.2_astro@3.2.1+svelte@4.2.1
-      '@astrojs/vue': 3.0.0_astro@3.2.1+vue@3.3.4
+      '@astrojs/svelte': 4.0.2_astro@3.2.3+svelte@4.2.1
+      '@astrojs/vue': 3.0.0_astro@3.2.3+vue@3.3.4
       '@types/react': 18.2.24
       '@types/react-dom': 18.2.7
-      astro: 3.2.1
+      astro: 3.2.3
       cds-design: 0.4.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -118,17 +118,17 @@ packages:
     resolution: {integrity: sha512-Mp+qrNhly+27bL/Zq8lGeUY+YrdoU0eDfIlAeGIPrzt0PnI/jGpvPUdCaugv4zbCrDkOUScFfcbeEiYumrdJnw==}
     dev: false
 
-  /@astrojs/internal-helpers/0.2.0:
-    resolution: {integrity: sha512-NQ4ppp1CM0HNkKbJNM4saVSfmUYzGlRalF6wx7F6T/MYHYSWGuojY89/oFTy4t8VlOGUCUijlsVNNeziWaUo5g==}
+  /@astrojs/internal-helpers/0.2.1:
+    resolution: {integrity: sha512-06DD2ZnItMwUnH81LBLco3tWjcZ1lGU9rLCCBaeUCGYe9cI0wKyY2W3kDyoW1I6GmcWgt1fu+D1CTvz+FIKf8A==}
     dev: false
 
-  /@astrojs/markdown-remark/3.2.0_astro@3.2.1:
-    resolution: {integrity: sha512-jigyLfefUZPKgVmmraCkVpdUuFH1R3SrpgQO13axsgwLDBgkggaQpNR5Ag4O9PDualeBtbdt30aYSfvnBKx9Hg==}
+  /@astrojs/markdown-remark/3.2.1_astro@3.2.3:
+    resolution: {integrity: sha512-Z4YNMRtgFZeHhB29uCZl0B9MbMZddW9ZKCNucapoysbvygbDFF1gGtqpVnf+Lyv3rUBHwM/J5qWB2MSZuTuz1g==}
     peerDependencies:
-      astro: ^3.1.0
+      astro: ^3.2.3
     dependencies:
       '@astrojs/prism': 3.0.0
-      astro: 3.2.1
+      astro: 3.2.3
       github-slugger: 2.0.0
       import-meta-resolve: 3.0.0
       mdast-util-definitions: 6.0.0
@@ -173,7 +173,7 @@ packages:
       - vite
     dev: false
 
-  /@astrojs/svelte/4.0.2_astro@3.2.1+svelte@4.2.1:
+  /@astrojs/svelte/4.0.2_astro@3.2.3+svelte@4.2.1:
     resolution: {integrity: sha512-XB9Sexq+iW5aUpctDk6zuKHbWIAuPlAnZKbfgaS9VOaOUtx1t12crP9YoKEVcTifXYgoRuWWfeEAm2I8pYlLIQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -181,7 +181,7 @@ packages:
       svelte: ^3.55.0 || ^4.0.0
     dependencies:
       '@sveltejs/vite-plugin-svelte': 2.4.6_svelte@4.2.1
-      astro: 3.2.1
+      astro: 3.2.3
       svelte: 4.2.1
       svelte2tsx: 0.6.21_svelte@4.2.1
     transitivePeerDependencies:
@@ -190,8 +190,8 @@ packages:
       - vite
     dev: false
 
-  /@astrojs/telemetry/3.0.2:
-    resolution: {integrity: sha512-ef+jqCkqopCzjGfsMsr+8p56Nj6F9ZzouWcWZt+dKsqbRccI3c8K3jfkLcdq4AyfFZtKBDB6N4ZuI68g33oiOg==}
+  /@astrojs/telemetry/3.0.3:
+    resolution: {integrity: sha512-j19Cf5mfyLt9hxgJ9W/FMdAA5Lovfp7/CINNB/7V71GqvygnL7KXhRC3TzfB+PsVQcBtgWZzCXhUWRbmJ64Raw==}
     engines: {node: '>=18.14.1'}
     dependencies:
       ci-info: 3.8.0
@@ -200,13 +200,12 @@ packages:
       dset: 3.1.2
       is-docker: 3.0.0
       is-wsl: 3.0.0
-      undici: 5.23.0
       which-pm-runs: 1.1.0
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@astrojs/vue/3.0.0_astro@3.2.1+vue@3.3.4:
+  /@astrojs/vue/3.0.0_astro@3.2.3+vue@3.3.4:
     resolution: {integrity: sha512-C3PSSznvgs9lZLz3e4VZOV3rRV+OekSELkA5wcrh2zgQiemYs8fnLo7S25ZMhM/xrqMbNxUKGjYZngH7NdIvsg==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -217,7 +216,7 @@ packages:
       '@vitejs/plugin-vue-jsx': 3.0.2_vue@3.3.4
       '@vue/babel-plugin-jsx': 1.1.5
       '@vue/compiler-sfc': 3.3.4
-      astro: 3.2.1
+      astro: 3.2.3
       vue: 3.3.4
     transitivePeerDependencies:
       - '@babel/core'
@@ -1373,15 +1372,15 @@ packages:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
     dev: false
 
-  /astro/3.2.1:
-    resolution: {integrity: sha512-idPwpMSdFg8wuS9HVkefDcbRdKpCkQzZGeKw3XO6enLcCv6ZvACRdWgl9xhM/N3RO4AOzrnJPAk1cbYcP3FdNQ==}
+  /astro/3.2.3:
+    resolution: {integrity: sha512-1epnxQhTbfzgdmLP1yu51E8zjIOKYxZyA8hMTD4S2E+F5gMp/D81H4hekPbbq89GDxNJiHDRNZDHtS5vrU5E5w==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
       '@astrojs/compiler': 2.1.0
-      '@astrojs/internal-helpers': 0.2.0
-      '@astrojs/markdown-remark': 3.2.0_astro@3.2.1
-      '@astrojs/telemetry': 3.0.2
+      '@astrojs/internal-helpers': 0.2.1
+      '@astrojs/markdown-remark': 3.2.1_astro@3.2.3
+      '@astrojs/telemetry': 3.0.3
       '@babel/core': 7.22.10
       '@babel/generator': 7.22.10
       '@babel/parser': 7.22.10
@@ -1426,7 +1425,6 @@ packages:
       string-width: 6.1.0
       strip-ansi: 7.1.0
       tsconfig-resolver: 3.0.1
-      undici: 5.23.0
       unist-util-visit: 4.1.2
       vfile: 5.3.7
       vite: 4.4.9
@@ -1533,13 +1531,6 @@ packages:
     dependencies:
       base64-js: 1.5.1
       ieee754: 1.2.1
-    dev: false
-
-  /busboy/1.6.0:
-    resolution: {integrity: sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==}
-    engines: {node: '>=10.16.0'}
-    dependencies:
-      streamsearch: 1.1.0
     dev: false
 
   /camelcase/6.3.0:
@@ -3588,11 +3579,6 @@ packages:
       - supports-color
     dev: false
 
-  /streamsearch/1.1.0:
-    resolution: {integrity: sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==}
-    engines: {node: '>=10.0.0'}
-    dev: false
-
   /streamx/2.15.1:
     resolution: {integrity: sha512-fQMzy2O/Q47rgwErk/eGeLu/roaFWV0jVsogDmrszM9uIw8L5OA+t+V93MgYlufNptfjmYR1tOMWhei/Eh7TQA==}
     dependencies:
@@ -3896,13 +3882,6 @@ packages:
 
   /ultrahtml/1.3.0:
     resolution: {integrity: sha512-xmXvE8tC8t4PVqy0/g1fe7H9USY/Brr425q4dD/0QbQMQit7siCtb06+SCqE4GfU24nwsZz8Th1g7L7mm1lL5g==}
-    dev: false
-
-  /undici/5.23.0:
-    resolution: {integrity: sha512-1D7w+fvRsqlQ9GscLBwcAJinqcZGHUKjbOmXdlE/v8BvEGXjeWAax+341q44EuTcHXXnfyKNbKRq4Lg7OzhMmg==}
-    engines: {node: '>=14.0'}
-    dependencies:
-      busboy: 1.6.0
     dev: false
 
   /unherit/3.0.1:
