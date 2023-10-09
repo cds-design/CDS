@@ -28,7 +28,7 @@ importers:
       '@astrojs/react': ^3.0.2
       '@astrojs/svelte': ^4.0.2
       '@astrojs/vue': ^3.0.0
-      '@types/react': ^18.2.24
+      '@types/react': ^18.2.25
       '@types/react-dom': ^18.2.7
       astro: ^3.2.3
       cds-design: '*'
@@ -37,10 +37,10 @@ importers:
       svelte: ^4.2.1
       vue: ^3.3.4
     dependencies:
-      '@astrojs/react': 3.0.2_n7zlhqtz6oyufirdpf4fplpcfq
+      '@astrojs/react': 3.0.2_qll4otzygjcw2cdby4rxiq77i4
       '@astrojs/svelte': 4.0.2_astro@3.2.3+svelte@4.2.1
       '@astrojs/vue': 3.0.0_astro@3.2.3+vue@3.3.4
-      '@types/react': 18.2.24
+      '@types/react': 18.2.25
       '@types/react-dom': 18.2.7
       astro: 3.2.3
       cds-design: 0.4.0
@@ -153,7 +153,7 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/react/3.0.2_n7zlhqtz6oyufirdpf4fplpcfq:
+  /@astrojs/react/3.0.2_qll4otzygjcw2cdby4rxiq77i4:
     resolution: {integrity: sha512-aooNIuQxTg+IWGMZPuIEwBeBi4/TCPCMsr3714zuLjAjukVd5ZrX/bCNxJqDWU4HNwUm4XFU1OhcEvYOHa5uMQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -162,7 +162,7 @@ packages:
       react: ^17.0.2 || ^18.0.0
       react-dom: ^17.0.2 || ^18.0.0
     dependencies:
-      '@types/react': 18.2.24
+      '@types/react': 18.2.25
       '@types/react-dom': 18.2.7
       '@vitejs/plugin-react': 4.0.4
       react: 18.2.0
@@ -1112,11 +1112,11 @@ packages:
   /@types/react-dom/18.2.7:
     resolution: {integrity: sha512-GRaAEriuT4zp9N4p1i8BDBYmEyfo+xQ3yHjJU4eiK5NDa1RmUZG+unZABUTK4/Ox/M+GaHwb6Ow8rUITrtjszA==}
     dependencies:
-      '@types/react': 18.2.24
+      '@types/react': 18.2.25
     dev: false
 
-  /@types/react/18.2.24:
-    resolution: {integrity: sha512-Ee0Jt4sbJxMu1iDcetZEIKQr99J1Zfb6D4F3qfUWoR1JpInkY1Wdg4WwCyBjL257D0+jGqSl1twBjV8iCaC0Aw==}
+  /@types/react/18.2.25:
+    resolution: {integrity: sha512-24xqse6+VByVLIr+xWaQ9muX1B4bXJKXBbjszbld/UEDslGLY53+ZucF44HCmLbMPejTzGG9XgR+3m2/Wqu1kw==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
