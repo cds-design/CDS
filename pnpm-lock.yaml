@@ -26,7 +26,7 @@ importers:
   apps/test:
     specifiers:
       '@astrojs/react': ^3.0.2
-      '@astrojs/svelte': ^4.0.2
+      '@astrojs/svelte': ^4.0.3
       '@astrojs/vue': ^3.0.0
       '@types/react': ^18.2.25
       '@types/react-dom': ^18.2.7
@@ -38,7 +38,7 @@ importers:
       vue: ^3.3.4
     dependencies:
       '@astrojs/react': 3.0.2_qll4otzygjcw2cdby4rxiq77i4
-      '@astrojs/svelte': 4.0.2_astro@3.2.3+svelte@4.2.1
+      '@astrojs/svelte': 4.0.3_astro@3.2.3+svelte@4.2.1
       '@astrojs/vue': 3.0.0_astro@3.2.3+vue@3.3.4
       '@types/react': 18.2.25
       '@types/react-dom': 18.2.7
@@ -173,11 +173,11 @@ packages:
       - vite
     dev: false
 
-  /@astrojs/svelte/4.0.2_astro@3.2.3+svelte@4.2.1:
-    resolution: {integrity: sha512-XB9Sexq+iW5aUpctDk6zuKHbWIAuPlAnZKbfgaS9VOaOUtx1t12crP9YoKEVcTifXYgoRuWWfeEAm2I8pYlLIQ==}
+  /@astrojs/svelte/4.0.3_astro@3.2.3+svelte@4.2.1:
+    resolution: {integrity: sha512-3toH/mkNFqMdmnMXh4XcksZfuOAwWVXdRrISyoRgNn1HalG6WBACFT+RwxAwpH7eXW/zUfrpfyZdcxYnVucHTg==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
-      astro: ^3.0.11
+      astro: ^3.2.3
       svelte: ^3.55.0 || ^4.0.0
     dependencies:
       '@sveltejs/vite-plugin-svelte': 2.4.6_svelte@4.2.1
