@@ -52,7 +52,7 @@ importers:
   packages/auto-gen:
     specifiers:
       '@cds-design/md-builder': '*'
-      '@types/node': ^20.8.6
+      '@types/node': ^20.8.7
       cds-design: '*'
       css-tree: ^2.3.1
       typescript: ^5.2.2
@@ -61,7 +61,7 @@ importers:
       cds-design: 0.4.0
       css-tree: 2.3.1
     devDependencies:
-      '@types/node': 20.8.6
+      '@types/node': 20.8.7
       typescript: 5.2.2
 
   packages/md-builder:
@@ -78,7 +78,7 @@ importers:
 
   packages/type-modifier:
     specifiers:
-      '@types/node': ^20.8.6
+      '@types/node': ^20.8.7
       postcss: ^8.4.31
       postcss-load-config: ^4.0.1
       typescript: ^5.2.2
@@ -86,9 +86,9 @@ importers:
     dependencies:
       postcss: 8.4.31
       postcss-load-config: 4.0.1_postcss@8.4.31
-      vite: 4.4.11_@types+node@20.8.6
+      vite: 4.4.11_@types+node@20.8.7
     devDependencies:
-      '@types/node': 20.8.6
+      '@types/node': 20.8.7
       typescript: 5.2.2
 
   packages/vite-plugin-lit-postcss:
@@ -1100,8 +1100,8 @@ packages:
       '@types/unist': 2.0.7
     dev: false
 
-  /@types/node/20.8.6:
-    resolution: {integrity: sha512-eWO4K2Ji70QzKUqRy6oyJWUeB7+g2cRagT3T/nxYibYcT4y2BDL8lqolRXjTHmkZCdJfIPaY73KbJAZmcryxTQ==}
+  /@types/node/20.8.7:
+    resolution: {integrity: sha512-21TKHHh3eUHIi2MloeptJWALuCu5H7HQTdTrWIFReA8ad+aggoX+lRes3ex7/FtpC+sVUpFMQ+QTfYr74mruiQ==}
     dependencies:
       undici-types: 5.25.3
 
@@ -4223,7 +4223,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /vite/4.4.11_@types+node@20.8.6:
+  /vite/4.4.11_@types+node@20.8.7:
     resolution: {integrity: sha512-ksNZJlkcU9b0lBwAGZGGaZHCMqHsc8OpgtoYhsQ4/I2v5cnpmmmqe5pM4nv/4Hn6G/2GhTdj0DhZh2e+Er1q5A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -4251,7 +4251,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.8.6
+      '@types/node': 20.8.7
       esbuild: 0.18.11
       postcss: 8.4.31
       rollup: 3.27.2
