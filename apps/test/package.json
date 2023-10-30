@@ -33,7 +33,7 @@
     }
   ],
   "dependencies": {
-    "@astrojs/react": "^3.0.2",
+    "@astrojs/react": "^3.0.4",
     "@astrojs/svelte": "^4.0.3",
     "@astrojs/vue": "^3.0.1",
     "@types/react": "^18.2.29",
