@@ -35,7 +35,7 @@
   "dependencies": {
     "@astrojs/react": "^3.0.2",
     "@astrojs/svelte": "^4.0.3",
-    "@astrojs/vue": "^3.0.1",
+    "@astrojs/vue": "^3.0.2",
     "@types/react": "^18.2.29",
     "@types/react-dom": "^18.2.7",
     "astro": "^3.3.4",

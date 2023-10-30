@@ -103,7 +103,7 @@ importers:
     specifiers:
       '@astrojs/react': ^3.0.2
       '@astrojs/svelte': ^4.0.3
-      '@astrojs/vue': ^3.0.1
+      '@astrojs/vue': ^3.0.2
       '@types/react': ^18.2.29
       '@types/react-dom': ^18.2.7
       astro: ^3.3.4
@@ -115,7 +115,7 @@ importers:
     dependencies:
       '@astrojs/react': 3.0.2_wny2djjwi7pnvh4hb2fw67q3xa
       '@astrojs/svelte': 4.0.3_astro@3.3.4+svelte@4.2.2
-      '@astrojs/vue': 3.0.1_astro@3.3.4+vue@3.3.4
+      '@astrojs/vue': 3.0.2_astro@3.3.4+vue@3.3.4
       '@types/react': 18.2.29
       '@types/react-dom': 18.2.7
       astro: 3.3.4
@@ -326,11 +326,11 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/vue/3.0.1_astro@3.3.4+vue@3.3.4:
-    resolution: {integrity: sha512-qXn99sQ60zUPoHsMXGt43IySMKN5VXZz5VJlTKqkXG+CFV9DOWw0+syj/5iYKZSouH3nyNNb5a9uAkdz+X6Cew==}
+  /@astrojs/vue/3.0.2_astro@3.3.4+vue@3.3.4:
+    resolution: {integrity: sha512-rU1VX0PyPOJLX8kI8yL92zCuLAURdrZe9FsPMna/QqoHoIVZAZO5EDPbRVKAFczsZQq1PjfZRFZk7H9qizcNGg==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
-      astro: ^3.2.3
+      astro: ^3.3.3
       vue: ^3.2.30
     dependencies:
       '@vitejs/plugin-vue': 4.3.4_vue@3.3.4
