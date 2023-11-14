@@ -110,11 +110,11 @@ importers:
       cds-design: '*'
       react: ^18.0.0
       react-dom: ^18.0.0
-      svelte: ^4.2.2
+      svelte: ^4.2.3
       vue: ^3.3.8
     dependencies:
       '@astrojs/react': 3.0.4_wny2djjwi7pnvh4hb2fw67q3xa
-      '@astrojs/svelte': 4.0.3_astro@3.5.3+svelte@4.2.2
+      '@astrojs/svelte': 4.0.3_astro@3.5.3+svelte@4.2.3
       '@astrojs/vue': 3.0.4_astro@3.5.3+vue@3.3.8
       '@types/react': 18.2.29
       '@types/react-dom': 18.2.7
@@ -122,7 +122,7 @@ importers:
       cds-design: link:../../packages/continuum
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      svelte: 4.2.2
+      svelte: 4.2.3
       vue: 3.3.8
 
   packages/auto-gen:
@@ -294,17 +294,17 @@ packages:
       - vite
     dev: false
 
-  /@astrojs/svelte/4.0.3_astro@3.5.3+svelte@4.2.2:
+  /@astrojs/svelte/4.0.3_astro@3.5.3+svelte@4.2.3:
     resolution: {integrity: sha512-3toH/mkNFqMdmnMXh4XcksZfuOAwWVXdRrISyoRgNn1HalG6WBACFT+RwxAwpH7eXW/zUfrpfyZdcxYnVucHTg==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       astro: ^3.2.3
       svelte: ^3.55.0 || ^4.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 2.4.6_svelte@4.2.2
+      '@sveltejs/vite-plugin-svelte': 2.4.6_svelte@4.2.3
       astro: 3.5.3
-      svelte: 4.2.2
-      svelte2tsx: 0.6.21_svelte@4.2.2
+      svelte: 4.2.3
+      svelte2tsx: 0.6.21_svelte@4.2.3
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -1893,7 +1893,7 @@ packages:
     resolution: {integrity: sha512-1I6EaWR9rxdFjIJtF52CtETJt9ngfY4AjawrJY5pLxCvHa/lQZ+1v2gTUntwNZkuks6E2It6YEXV6jnpnCZFjA==}
     dev: false
 
-  /@sveltejs/vite-plugin-svelte-inspector/1.0.4_gkut3jeu7mdrwkjirpdhalvfnm:
+  /@sveltejs/vite-plugin-svelte-inspector/1.0.4_5cjncibu4wsfufx27ckwx54upi:
     resolution: {integrity: sha512-zjiuZ3yydBtwpF3bj0kQNV0YXe+iKE545QGZVTaylW3eAzFr+pJ/cwK8lZEaRp4JtaJXhD5DyWAV4AxLh6DgaQ==}
     engines: {node: ^14.18.0 || >= 16}
     peerDependencies:
@@ -1901,27 +1901,27 @@ packages:
       svelte: ^3.54.0 || ^4.0.0
       vite: ^4.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 2.4.6_svelte@4.2.2
+      '@sveltejs/vite-plugin-svelte': 2.4.6_svelte@4.2.3
       debug: 4.3.4
-      svelte: 4.2.2
+      svelte: 4.2.3
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@sveltejs/vite-plugin-svelte/2.4.6_svelte@4.2.2:
+  /@sveltejs/vite-plugin-svelte/2.4.6_svelte@4.2.3:
     resolution: {integrity: sha512-zO79p0+DZnXPnF0ltIigWDx/ux7Ni+HRaFOw720Qeivc1azFUrJxTl0OryXVibYNx1hCboGia1NRV3x8RNv4cA==}
     engines: {node: ^14.18.0 || >= 16}
     peerDependencies:
       svelte: ^3.54.0 || ^4.0.0
       vite: ^4.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 1.0.4_gkut3jeu7mdrwkjirpdhalvfnm
+      '@sveltejs/vite-plugin-svelte-inspector': 1.0.4_5cjncibu4wsfufx27ckwx54upi
       debug: 4.3.4
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.5
-      svelte: 4.2.2
-      svelte-hmr: 0.15.3_svelte@4.2.2
+      svelte: 4.2.3
+      svelte-hmr: 0.15.3_svelte@4.2.3
       vitefu: 0.2.4
     transitivePeerDependencies:
       - supports-color
@@ -7634,17 +7634,17 @@ packages:
       react: 18.2.0
     dev: false
 
-  /svelte-hmr/0.15.3_svelte@4.2.2:
+  /svelte-hmr/0.15.3_svelte@4.2.3:
     resolution: {integrity: sha512-41snaPswvSf8TJUhlkoJBekRrABDXDMdpNpT2tfHIv4JuhgvHqLMhEPGtaQn0BmbNSTkuz2Ed20DF2eHw0SmBQ==}
     engines: {node: ^12.20 || ^14.13.1 || >= 16}
     peerDependencies:
       svelte: ^3.19.0 || ^4.0.0
     dependencies:
-      svelte: 4.2.2
+      svelte: 4.2.3
     dev: false
 
-  /svelte/4.2.2:
-    resolution: {integrity: sha512-My2tytF2e2NnHSpn2M7/3VdXT4JdTglYVUuSuK/mXL2XtulPYbeBfl8Dm1QiaKRn0zoULRnL+EtfZHHP0k4H3A==}
+  /svelte/4.2.3:
+    resolution: {integrity: sha512-sqmG9KC6uUc7fb3ZuWoxXvqk6MI9Uu4ABA1M0fYDgTlFYu1k02xp96u6U9+yJZiVm84m9zge7rrA/BNZdFpOKw==}
     engines: {node: '>=16'}
     dependencies:
       '@ampproject/remapping': 2.2.1
@@ -7662,7 +7662,7 @@ packages:
       periscopic: 3.1.0
     dev: false
 
-  /svelte2tsx/0.6.21_svelte@4.2.2:
+  /svelte2tsx/0.6.21_svelte@4.2.3:
     resolution: {integrity: sha512-v+vvbiy6WDmEQdIkJpvHYxJYG/obALfH0P6CTreYO350q/9+QmFTNCOJvx0O1o59Zpzx1Bqe+qlDxP/KtJSZEA==}
     peerDependencies:
       svelte: ^3.55 || ^4.0.0-next.0 || ^4.0
@@ -7670,7 +7670,7 @@ packages:
     dependencies:
       dedent-js: 1.0.1
       pascal-case: 3.1.2
-      svelte: 4.2.2
+      svelte: 4.2.3
     dev: false
 
   /svg-path-commander/1.0.5:
