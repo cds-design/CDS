@@ -106,7 +106,7 @@ importers:
       '@astrojs/vue': ^3.0.4
       '@types/react': ^18.2.29
       '@types/react-dom': ^18.2.7
-      astro: ^3.5.3
+      astro: ^3.5.5
       cds-design: '*'
       react: ^18.0.0
       react-dom: ^18.0.0
@@ -114,11 +114,11 @@ importers:
       vue: ^3.3.8
     dependencies:
       '@astrojs/react': 3.0.4_wny2djjwi7pnvh4hb2fw67q3xa
-      '@astrojs/svelte': 4.0.3_astro@3.5.3+svelte@4.2.3
-      '@astrojs/vue': 3.0.4_astro@3.5.3+vue@3.3.8
+      '@astrojs/svelte': 4.0.3_astro@3.5.5+svelte@4.2.3
+      '@astrojs/vue': 3.0.4_astro@3.5.5+vue@3.3.8
       '@types/react': 18.2.29
       '@types/react-dom': 18.2.7
-      astro: 3.5.3
+      astro: 3.5.5
       cds-design: link:../../packages/continuum
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -243,13 +243,13 @@ packages:
     resolution: {integrity: sha512-06DD2ZnItMwUnH81LBLco3tWjcZ1lGU9rLCCBaeUCGYe9cI0wKyY2W3kDyoW1I6GmcWgt1fu+D1CTvz+FIKf8A==}
     dev: false
 
-  /@astrojs/markdown-remark/3.4.0_astro@3.5.3:
-    resolution: {integrity: sha512-uzLSKBQ4e70aH8gEbBHZ2pnv/KOJKB3WrXFBOF0U5Uwjcr2LNWeIBLjPRQjA4tbtteELh84YPBHny21mhvBGVA==}
+  /@astrojs/markdown-remark/3.5.0_astro@3.5.5:
+    resolution: {integrity: sha512-q7vdIqzYhxpsfghg2YmkmSXCfp4w7lBTYP+SSHw89wVhC5Riltr3u8w2otBRxNLSByNi+ht/gGkFC23Shetytw==}
     peerDependencies:
       astro: ^3.0.0
     dependencies:
       '@astrojs/prism': 3.0.0
-      astro: 3.5.3
+      astro: 3.5.5
       github-slugger: 2.0.0
       import-meta-resolve: 3.0.0
       mdast-util-definitions: 6.0.0
@@ -294,7 +294,7 @@ packages:
       - vite
     dev: false
 
-  /@astrojs/svelte/4.0.3_astro@3.5.3+svelte@4.2.3:
+  /@astrojs/svelte/4.0.3_astro@3.5.5+svelte@4.2.3:
     resolution: {integrity: sha512-3toH/mkNFqMdmnMXh4XcksZfuOAwWVXdRrISyoRgNn1HalG6WBACFT+RwxAwpH7eXW/zUfrpfyZdcxYnVucHTg==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -302,7 +302,7 @@ packages:
       svelte: ^3.55.0 || ^4.0.0
     dependencies:
       '@sveltejs/vite-plugin-svelte': 2.4.6_svelte@4.2.3
-      astro: 3.5.3
+      astro: 3.5.5
       svelte: 4.2.3
       svelte2tsx: 0.6.21_svelte@4.2.3
     transitivePeerDependencies:
@@ -326,7 +326,7 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/vue/3.0.4_astro@3.5.3+vue@3.3.8:
+  /@astrojs/vue/3.0.4_astro@3.5.5+vue@3.3.8:
     resolution: {integrity: sha512-+kuONslRcfXbwlZOwdl+9XYJ0HKfPQ8SHnmk4Uf3ZNscJfjptob3z0mrIaCRqIgNNWJHsY2xLZovishGQ+lAow==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -337,7 +337,7 @@ packages:
       '@vitejs/plugin-vue-jsx': 3.0.2_vue@3.3.8
       '@vue/babel-plugin-jsx': 1.1.5
       '@vue/compiler-sfc': 3.3.8
-      astro: 3.5.3
+      astro: 3.5.5
       vue: 3.3.8
     transitivePeerDependencies:
       - '@babel/core'
@@ -2778,14 +2778,14 @@ packages:
     hasBin: true
     dev: false
 
-  /astro/3.5.3:
-    resolution: {integrity: sha512-08ya96yvQLdZjwYYpylzDTUGcyuA+Kw9zIT2RHfL7VzXtLTL1ZxhQjSo6CiTBH8Tcrdam88Fez+Q1awwKKajGw==}
+  /astro/3.5.5:
+    resolution: {integrity: sha512-zJDZhO8XheXzpqkZgBXlP8e3j8psf0A21fh5Bq4HNR6gOmgOnM62Pok3O2ClbGygabfl2Preeun0pBRFn5+y0A==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
       '@astrojs/compiler': 2.3.0
       '@astrojs/internal-helpers': 0.2.1
-      '@astrojs/markdown-remark': 3.4.0_astro@3.5.3
+      '@astrojs/markdown-remark': 3.5.0_astro@3.5.5
       '@astrojs/telemetry': 3.0.4
       '@babel/core': 7.22.10
       '@babel/generator': 7.22.10
