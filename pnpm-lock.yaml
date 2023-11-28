@@ -101,7 +101,7 @@ importers:
 
   apps/test:
     specifiers:
-      '@astrojs/react': ^3.0.4
+      '@astrojs/react': ^3.0.6
       '@astrojs/svelte': ^4.0.4
       '@astrojs/vue': ^3.0.4
       '@types/react': ^18.2.29
@@ -113,7 +113,7 @@ importers:
       svelte: ^4.2.3
       vue: ^3.3.8
     dependencies:
-      '@astrojs/react': 3.0.4_wny2djjwi7pnvh4hb2fw67q3xa
+      '@astrojs/react': 3.0.6_wny2djjwi7pnvh4hb2fw67q3xa
       '@astrojs/svelte': 4.0.4_astro@3.6.1+svelte@4.2.3
       '@astrojs/vue': 3.0.4_astro@3.6.1+vue@3.3.8
       '@types/react': 18.2.29
@@ -274,8 +274,8 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/react/3.0.4_wny2djjwi7pnvh4hb2fw67q3xa:
-    resolution: {integrity: sha512-v+qltrm5nfqqm8C5ymYDBxrGlvNouRr+iCLcUWvNX65abVz8GzUqquhPQjmCTDXphn1Qc558Uxzc4s79l02skw==}
+  /@astrojs/react/3.0.6_wny2djjwi7pnvh4hb2fw67q3xa:
+    resolution: {integrity: sha512-hjC02q8cPeyzw+LWe6V2dPTYf8OgfuZwxmH32tkhn3JC/VTz1AdO5rM7dgvbilLnUoL7qMGapODEkSl2mmW+oA==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       '@types/react': ^17.0.50 || ^18.0.21
