@@ -4,12 +4,12 @@ importers:
 
   .:
     specifiers:
-      czg: ^1.7.1
+      czg: ^1.8.0
       husky: ^8.0.3
       prettier: ^3.1.0
       turbo: ^1.10.16
     devDependencies:
-      czg: 1.7.1
+      czg: 1.8.0
       husky: 8.0.3
       prettier: 3.1.0
       turbo: 1.10.16
@@ -3916,8 +3916,8 @@ packages:
       lodash: 4.17.21
     dev: false
 
-  /czg/1.7.1:
-    resolution: {integrity: sha512-KP93cTbZxgWYDKJzZpjnLe0sy/2FwyegatnrOaqsath04WinvsdhZl5QCGkxTKBY2DavpKloIBW/WGZzCKmrlA==}
+  /czg/1.8.0:
+    resolution: {integrity: sha512-vLX3AIUaE30C/qkeuL+g1fcdjZ72vBdON12E4V4vmuTKKe7OMoQ2MxBYbWhl5OP28+ggCrajxGBk6bdjIn5LgQ==}
     engines: {node: '>=v12.20.0'}
     hasBin: true
     dev: true
