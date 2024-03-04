@@ -42,7 +42,7 @@
   ],
   "packageManager": "pnpm@7.27.1",
   "devDependencies": {
-    "czg": "^1.7.1",
+    "czg": "^1.9.0",
     "husky": "^8.0.3",
     "prettier": "^3.1.0",
     "turbo": "^1.10.16"
